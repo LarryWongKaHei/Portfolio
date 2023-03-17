@@ -10,15 +10,13 @@ export function Navbar (){
     }
 
     return (
-        <div className="bg-black text-white py-5 sticky top-0 flex justify-between">
-            <div id="logoAndName" className="flex ml-5">Larry</div>
-            <div className="mx-auto">
-                <ul className="hidden md:flex gap-6 pr-10">
+        <div className="text-white py-5 sticky top-0 flex">
+            <div className="w-full flex ml-10">
+                <ul className="hidden md:flex gap-8">
                     <li className="hover:text-gray-600 cursor-pointer">Home</li>
                     <li className="hover:text-gray-600 cursor-pointer">Portfolio</li>
                     <li className="hover:text-gray-600 cursor-pointer">About</li>
-                    <li className="hover:text-gray-600 cursor-pointer">Pricing</li>
-                    <li className="hover:text-gray-600 cursor-pointer">Blog</li>
+                    <li className="hover:text-gray-600 cursor-pointer">Project</li>
                     <li className="hover:text-gray-600 cursor-pointer">Contact</li>
                 </ul>
             </div>
@@ -28,8 +26,7 @@ export function Navbar (){
                     <li className="hover:text-gray-600 cursor-pointer">Home</li>
                     <li className="hover:text-gray-600 cursor-pointer">Portfolio</li>
                     <li className="hover:text-gray-600 cursor-pointer">About</li>
-                    <li className="hover:text-gray-600 cursor-pointer">Pricing</li>
-                    <li className="hover:text-gray-600 cursor-pointer">Blog</li>
+                    <li className="hover:text-gray-600 cursor-pointer">Project</li>
                     <li className="hover:text-gray-600 cursor-pointer">Contact</li>
                 </ul>
             </div>

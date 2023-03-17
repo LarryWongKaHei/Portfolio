@@ -1,11 +1,12 @@
 import './App.css';
+import { MainIntro } from './Components/MainIntro';
 import { Navbar } from './Components/Navbar';
 
 function App() {
   return (
-    <div className="App">
+    <div className="bg-black">
       <Navbar />
-      <h1 className='text-5xl'>hi</h1>
+      <MainIntro />
     </div>
   );
 }
