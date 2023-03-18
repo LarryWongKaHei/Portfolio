@@ -1,15 +1,11 @@
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai"
 import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs"
 import { useNavigate } from "react-router-dom"
-import { useState, useEffect } from "react"
+import { useState } from "react"
 
 export function Navbar (){
 
     const [showMenu, setShowMenu] = useState(false)
-
-    useEffect(() => {
-        setShowMenu(!showMenu)
-    }, [window.location.pathname])
 
     const navigate = useNavigate()
 
@@ -27,18 +23,26 @@ export function Navbar (){
 
     function toHome(){
         navigate('/')
+        setShowMenu(!showMenu)
+
     }
 
     function toAbout(){
         navigate('/about')
+        setShowMenu(!showMenu)
+
     }
 
     function toContact(){
         navigate('/contact')
+        setShowMenu(!showMenu)
+
     }
 
     function toProjects(){
         navigate('/projects')
+        setShowMenu(!showMenu)
+
     }
 
     function clickMenu (){
