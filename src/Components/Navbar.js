@@ -1,9 +1,16 @@
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai"
 import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs"
 import { useNavigate } from "react-router-dom"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 export function Navbar (){
+
+    const [showMenu, setShowMenu] = useState(false)
+
+    useEffect(() => {
+        setShowMenu(!showMenu)
+    }, [window.location.pathname])
+
     const navigate = useNavigate()
 
     function toGithub(){
@@ -33,8 +40,6 @@ export function Navbar (){
     function toProjects(){
         navigate('/projects')
     }
-
-    const [showMenu, setShowMenu] = useState(false)
 
     function clickMenu (){
         setShowMenu(!showMenu)
