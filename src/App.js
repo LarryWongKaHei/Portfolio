@@ -1,7 +1,6 @@
 import './App.css';
 import { MainIntro } from './Components/MainIntro';
 import { Navbar } from './Components/Navbar';
-import Widget from 'rasa-webchat';
 import { About } from './Components/About';
 import { Contact } from './Components/Contact';
 import { Projects } from './Components/Projects';
