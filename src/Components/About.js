@@ -3,10 +3,13 @@ import Photo from '../images/PhotoOfMe.png'
 export function About (){
     return (
         <div>
-            <div className='flex text-white justify-between'>
-                <div className='w-[50%]'>
-                    <h1 className=" text-center text-3xl mt-10 font-extralight border-b ml-20">About me</h1>
-                    <p className='ml-14 font-light tracking-wide'>
+            <div className='md:flex text-white justify-between md:flex-row-reverse'>
+                <div className='flex justify-center'>
+                    <img src={Photo} className='rounded-full h-72 md:flex md:w-72 md:h-max md:justify-self-end md:rounded-none'/>
+                </div>
+                <div className='w-[50%] mx-auto md:mx-0'>
+                    <h1 className=" text-center text-3xl mt-10 font-extralight border-b md:ml-20">About me</h1>
+                    <p className='md:ml-14 font-light tracking-wide'>
                         <span className='text-xl ml-4 font-normal'>Hello World</span>, my name is Wong Ka Hei and I am a software developer with a passion for solving complex problems and creating innovative solutions. 
                         <p className='my-3'>
                             <span className='ml-4'>I</span> am skilled in several programming languages, including Python, Javascript, Java.
@@ -23,9 +26,6 @@ export function About (){
                         </p>
 
                     </p>
-                </div>
-                <div>
-                    <img src={Photo} className='hidden md:flex w-72 justify-self-end'/>
                 </div>
             </div>
             <div className='text-white mt-5 text-xl font-mono'>
