@@ -11,7 +11,7 @@ import { CoffeeShop } from "./LandLCoffeeshop"
 export function Projects(){
     return (
         <div>
-            <h1 className="text-white text-5xl font-light text-center mt-10 lg:text-sm xl:text-xl">
+            <h1 className="text-white text-5xl font-light text-center mt-10">
                 Recent Projects
             </h1>
             <h2>
@@ -81,16 +81,28 @@ export function Projects(){
                 </div>
             </div>
             <div id="Projects">
-                <div id="TreeHole">
+                <div className="" id="TreeHole">
+                    <h1 className="text-4xl font-extralight text-white text-center border-t pt-10 mt-80">
+                        The Treehole
+                    </h1>
                     <TreeHole />
                 </div>
                 <div id="Macros">
+                    <h1 className="text-4xl font-extralight text-white text-center border-t pt-10 mt-80">
+                        Macros
+                    </h1>
                     <Macros />
                 </div>
                 <div id="Beecareful">
+                    <h1 className="text-4xl font-extralight text-white text-center border-t pt-10 mt-80">
+                        Beecareful
+                    </h1>
                     <Beecareful />
                 </div>
                 <div id="Coffeeshop">
+                    <h1 className="text-4xl font-extralight text-white text-center border-t pt-10 mt-80">
+                        l&l CoffeeShop
+                    </h1>
                     <CoffeeShop />
                 </div>
             </div>
