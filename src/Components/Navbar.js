@@ -23,26 +23,31 @@ export function Navbar (){
 
     function toHome(){
         navigate('/')
-        setShowMenu(!showMenu)
+        if(showMenu){
+            setShowMenu(!showMenu)
+        }
 
     }
 
     function toAbout(){
         navigate('/about')
-        setShowMenu(!showMenu)
-
+        if(showMenu){
+            setShowMenu(!showMenu)
+        }
     }
 
     function toContact(){
         navigate('/contact')
-        setShowMenu(!showMenu)
-
+        if(showMenu){
+            setShowMenu(!showMenu)
+        }
     }
 
     function toProjects(){
         navigate('/projects')
-        setShowMenu(!showMenu)
-
+        if(showMenu){
+            setShowMenu(!showMenu)
+        }
     }
 
     function clickMenu (){
