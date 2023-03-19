@@ -17,7 +17,7 @@ export function Projects(){
             <h2>
                 
             </h2>
-            <div id="ShowCase" className="flex gap-5 justify-between mx-20 mt-14 text-center">
+            <div id="ShowCase" className="lg:flex gap-5 justify-between mx-20 mt-14 text-center hidden ">
                 <div id="project1" className="bg-white h-80 w-64 rounded-lg">
                     <a href="#TreeHole">
                         <img src={TheTreeHoleBG} 
@@ -82,25 +82,25 @@ export function Projects(){
             </div>
             <div id="Projects">
                 <div className="" id="TreeHole">
-                    <h1 className="text-4xl font-extralight text-white text-center border-t pt-10 mt-80">
+                    <h1 className="text-4xl font-extralight text-white text-center lg:border-t pt-10 lg:mt-80 mt-10">
                         The Treehole
                     </h1>
                     <TreeHole />
                 </div>
                 <div id="Macros">
-                    <h1 className="text-4xl font-extralight text-white text-center border-t pt-10 mt-80">
+                    <h1 className="text-4xl font-extralight text-white text-center lg:border-t pt-10 lg:mt-80">
                         Macros
                     </h1>
                     <Macros />
                 </div>
                 <div id="Beecareful">
-                    <h1 className="text-4xl font-extralight text-white text-center border-t pt-10 mt-80">
+                    <h1 className="text-4xl font-extralight text-white text-center lg:border-t pt-10 lg:mt-80">
                         Beecareful
                     </h1>
                     <Beecareful />
                 </div>
                 <div id="Coffeeshop">
-                    <h1 className="text-4xl font-extralight text-white text-center border-t pt-10 mt-80">
+                    <h1 className="text-4xl font-extralight text-white text-center lg:border-t pt-10 lg:mt-80">
                         l&l CoffeeShop
                     </h1>
                     <CoffeeShop />
