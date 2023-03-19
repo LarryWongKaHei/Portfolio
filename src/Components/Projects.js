@@ -82,25 +82,25 @@ export function Projects(){
             </div>
             <div id="Projects">
                 <div className="" id="TreeHole">
-                    <h1 className="text-4xl font-extralight text-white text-center lg:border-t pt-10 lg:mt-80 mt-10">
+                    <h1 className="text-4xl font-extralight text-white text-center lg:border-t pt-24 lg:mt-80 mt-10">
                         The Treehole
                     </h1>
                     <TreeHole />
                 </div>
                 <div id="Macros">
-                    <h1 className="text-4xl font-extralight text-white text-center lg:border-t pt-10 lg:mt-80">
+                    <h1 className="text-4xl font-extralight text-white text-center lg:border-t pt-24 lg:mt-80">
                         Macros
                     </h1>
                     <Macros />
                 </div>
                 <div id="Beecareful">
-                    <h1 className="text-4xl font-extralight text-white text-center lg:border-t pt-10 lg:mt-80">
+                    <h1 className="text-4xl font-extralight text-white text-center lg:border-t pt-24 lg:mt-80">
                         Beecareful
                     </h1>
                     <Beecareful />
                 </div>
                 <div id="Coffeeshop">
-                    <h1 className="text-4xl font-extralight text-white text-center lg:border-t pt-10 lg:mt-80">
+                    <h1 className="text-4xl font-extralight text-white text-center lg:border-t pt-24 lg:mt-80">
                         l&l CoffeeShop
                     </h1>
                     <CoffeeShop />
