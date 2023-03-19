@@ -9,7 +9,7 @@ export function About (){
                 </div>
                 <div className='w-[80%] mx-auto md:mx-0'>
                     <h1 className=" text-center text-3xl mt-10 font-extralight border-b md:mx-40 mx-20 mb-5 lg:mx-60 xl:mx-80">About me</h1>
-                    <p className='md:ml-14 font-light tracking-wide md:mx-14'>
+                    <p className='md:ml-14 font-light tracking-wide md:mx-14 lg:mx-24 xl:mx-32'>
                         <span className='text-xl ml-4 font-normal'>Hello World</span>, my name is Wong Ka Hei and I am a junior software developer with a passion for solving complex problems and creating innovative solutions. 
                         <p className='my-3'>
                             <span className='ml-4'>I</span> am skilled in several programming languages, including Python, Javascript, Java.

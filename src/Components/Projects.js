@@ -11,7 +11,7 @@ import { CoffeeShop } from "./LandLCoffeeshop"
 export function Projects(){
     return (
         <div>
-            <h1 className="text-white text-5xl font-light text-center mt-10">
+            <h1 className="text-white text-5xl font-light text-center mt-10 lg:text-sm xl:text-xl">
                 Recent Projects
             </h1>
             <h2>
@@ -29,7 +29,8 @@ export function Projects(){
                                     padding: "none",
                                     zIndex: "-1",
                                     objectFit:"cover"}}
-                                    className="rounded-lg transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer"/>
+                                    className="rounded-lg transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer"
+                                    alt="TheTreeHole"/>
                     </a>
 
                 </div>
@@ -44,7 +45,8 @@ export function Projects(){
                                     padding: "none",
                                     zIndex: "-1",
                                     objectFit:"cover"}}
-                                    className="rounded-lg transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer"/>
+                                    className="rounded-lg transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer"
+                                    alt="Macros"/>
                     </a>
                 </div>
                 <div id="project3" className="bg-white h-80 w-64 rounded-lg">
@@ -58,7 +60,8 @@ export function Projects(){
                                     padding: "none",
                                     zIndex: "-1",
                                     objectFit:"cover"}}
-                                    className="rounded-lg transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer"/>
+                                    className="rounded-lg transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer"
+                                    alt="Beecareful"/>
                     </a>
                 </div>
                 <div id="project4" className="bg-white h-80 w-64 rounded-lg">
@@ -72,7 +75,8 @@ export function Projects(){
                                     paddingTop:"0",
                                     zIndex: "-1",
                                     objectFit:"cover"}}
-                                    className="rounded-lg transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer"/>
+                                    className="rounded-lg transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer"
+                                    alt="CoffeeShop"/>
                     </a>
                 </div>
             </div>
