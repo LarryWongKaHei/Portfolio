@@ -19,7 +19,8 @@ export function Projects(){
             </h2>
             <div id="ShowCase" className="flex gap-5 justify-between mx-20 mt-14 text-center">
                 <div id="project1" className="bg-white h-80 w-64 rounded-lg">
-                    <img src={TheTreeHoleBG} 
+                    <a href="#TreeHole">
+                        <img src={TheTreeHoleBG} 
                                   style={{
                                     height: "100%",
                                     width: "100%",
@@ -29,10 +30,12 @@ export function Projects(){
                                     zIndex: "-1",
                                     objectFit:"cover"}}
                                     className="rounded-lg transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer"/>
+                    </a>
 
                 </div>
                 <div id="project2" className="bg-white h-80 w-64 rounded-lg">
-                    <img src={MacrosBG} 
+                    <a href="#Macros">
+                        <img src={MacrosBG} 
                                   style={{
                                     height: "100%",
                                     width: "100%",
@@ -42,9 +45,11 @@ export function Projects(){
                                     zIndex: "-1",
                                     objectFit:"cover"}}
                                     className="rounded-lg transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer"/>
+                    </a>
                 </div>
                 <div id="project3" className="bg-white h-80 w-64 rounded-lg">
-                    <img src={BeecarefulBG} 
+                    <a href="#Beecareful">
+                        <img src={BeecarefulBG} 
                                   style={{
                                     height: "100%",
                                     width: "100%",
@@ -54,9 +59,11 @@ export function Projects(){
                                     zIndex: "-1",
                                     objectFit:"cover"}}
                                     className="rounded-lg transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer"/>
+                    </a>
                 </div>
                 <div id="project4" className="bg-white h-80 w-64 rounded-lg">
-                    <img src={LandLCoffee} 
+                    <a href="#Coffeeshop">
+                        <img src={LandLCoffee} 
                                   style={{
                                     height: "100%",
                                     width: "100%",
@@ -66,13 +73,22 @@ export function Projects(){
                                     zIndex: "-1",
                                     objectFit:"cover"}}
                                     className="rounded-lg transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer"/>
+                    </a>
                 </div>
             </div>
             <div id="Projects">
-                <TreeHole />
-                <Macros />
-                <Beecareful />
-                <CoffeeShop />
+                <div id="TreeHole">
+                    <TreeHole />
+                </div>
+                <div id="Macros">
+                    <Macros />
+                </div>
+                <div id="Beecareful">
+                    <Beecareful />
+                </div>
+                <div id="Coffeeshop">
+                    <CoffeeShop />
+                </div>
             </div>
         </div>
     )
