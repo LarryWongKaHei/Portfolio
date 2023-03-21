@@ -11,7 +11,7 @@ export function MainIntro (){
     return (
         <div className="text-white bg-black md:flex md:justify-between">
             <div>
-                <div className='mt-32 text-center md:text-start ml-10 bg-black'>
+                <div className='mt-32 text-center md:text-start md: ml-10 bg-black'>
                     <p className="py-3 text-xl">Hi, I'm Larry.</p>
                     <p className="py-3 text-5xl font-serif">I build solution.</p>
                     <p className="py-3">I'm a junior developer who tend to make a difference.</p>
