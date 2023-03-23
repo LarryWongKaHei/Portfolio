@@ -94,19 +94,19 @@ export function Navbar (){
                         </div>                    
                     </div>
             </div>
-            {pathname !== "/portfolio" && pathname !== "/portfolio/" ?
-                <div className="hidden md:flex gap-5 mr-4">
-                    <div>
-                        <BsGithub size={23} onClick={toGithub} className="hover:cursor-pointer"/>
-                    </div>
-                    <div>
-                        <BsInstagram size={23} onClick={toInstagram} className="hover:cursor-pointer"/>
-                    </div>
-                    <div>
-                        <BsLinkedin size={23} onClick={toLinkedin} className="hover:cursor-pointer"/>
-                    </div>
+            {pathname == "/portfolio" || pathname == "/portfolio/" ?
+                null:
+            <div className="hidden md:flex gap-5 mr-4">
+                <div>
+                    <BsGithub size={23} onClick={toGithub} className="hover:cursor-pointer"/>
                 </div>
-                :null}
+                <div>
+                    <BsInstagram size={23} onClick={toInstagram} className="hover:cursor-pointer"/>
+                </div>
+                <div>
+                    <BsLinkedin size={23} onClick={toLinkedin} className="hover:cursor-pointer"/>
+                </div>
+            </div>}
         </div>
     )
 }
