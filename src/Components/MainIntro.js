@@ -17,6 +17,9 @@ export function MainIntro (){
                     <p className="py-3">I'm a junior developer who tend to make a difference.</p>
                     <button className='text-center mt-3 text-orange-400 hover:text-orange-500 cursor-pointer' onClick={toAbout}>Learn more ></button>
                 </div>
+                <div>
+                    
+                </div>
             </div>
         </div>
     )
