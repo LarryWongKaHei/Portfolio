@@ -22,7 +22,7 @@ export function Navbar (){
     }
 
     function toHome(){
-        navigate('/')
+        navigate('/portfolio')
         if(showMenu){
             setShowMenu(!showMenu)
         }
