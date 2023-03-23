@@ -37,13 +37,13 @@ export function MainIntro (){
                 </h1>
                 <div className="flex gap-16">
                     <div>
-                        <BsGithub size={76} onClick={toGithub} className="hover:cursor-pointer"/>
+                        <BsGithub size={54} onClick={toGithub} className="hover:cursor-pointer"/>
                     </div>
                     <div>
-                        <BsInstagram size={76} onClick={toInstagram} className="hover:cursor-pointer"/>
+                        <BsInstagram size={54} onClick={toInstagram} className="hover:cursor-pointer"/>
                     </div>
                     <div>
-                        <BsLinkedin size={76} onClick={toLinkedin} className="hover:cursor-pointer"/>
+                        <BsLinkedin size={54} onClick={toLinkedin} className="hover:cursor-pointer"/>
                     </div>
                 </div>
             </div>
