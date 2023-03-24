@@ -94,7 +94,7 @@ export function Navbar (){
                         </div>                    
                     </div>
             </div>
-            {pathname === "/portfolio" || pathname === "/portfolio/" ?
+            {pathname === "/"?
                 null:
             <div className="hidden md:flex gap-5 mr-4">
                 <div>
