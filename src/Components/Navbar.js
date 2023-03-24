@@ -92,7 +92,7 @@ export function Navbar (){
                         </div>                    
                     </div>
             </div>
-            {window.location.pathname === "/"?
+            {window.location.hash === "#/" || window.location.hash === ""?
                 null:
             <div className="hidden md:flex gap-5 mr-4">
                 <div>
