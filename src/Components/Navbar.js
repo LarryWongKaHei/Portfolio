@@ -21,10 +21,8 @@ export function Navbar (){
         window.location.href = 'https://www.linkedin.com/in/ka-hei-wong-429b66257';
     }
 
-    const pathname = window.location.pathname
-
     function toHome(){
-        navigate('/portfolio')
+        navigate('/')
         if(showMenu){
             setShowMenu(!showMenu)
         }
@@ -94,7 +92,7 @@ export function Navbar (){
                         </div>                    
                     </div>
             </div>
-            {pathname === "/"?
+            {window.location.pathname === "/"?
                 null:
             <div className="hidden md:flex gap-5 mr-4">
                 <div>
