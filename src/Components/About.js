@@ -1,4 +1,5 @@
 import Photo from '../images/PhotoOfMe.png'
+import asp from '../images/pngwing.com.png'
 
 export function About (){
     return (
@@ -36,6 +37,7 @@ export function About (){
                         <img src="https://user-images.githubusercontent.com/108957679/221861950-817a5628-a818-40fd-a2a4-58d361cc1b5a.png" alt="Javascript" width="70" height="70" />
                         <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" width="70" height="70" />
                         <img src="https://user-images.githubusercontent.com/108957679/221865391-3c5aad3e-7aef-4459-8c51-48655d28c4ca.png" alt="Java" width="70" height="70" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png" alt="C#" width="100" height="100" />
                 </div>
                 <div className='text-center mt-5'>
                     frameworks:
@@ -50,6 +52,7 @@ export function About (){
                         <img src="https://user-images.githubusercontent.com/108957679/221864279-fa907251-bad8-465a-b682-537dc92940dc.png" alt="Flask" width="70" height="70" className='mr-5'/>
                         <img src="https://user-images.githubusercontent.com/108957679/221865160-9ac91128-a0f0-4b64-ace9-d5b6fcff1f9a.png" alt="Node.js" width="70" height="70" className='mr-5'/>
                         <img src="https://user-images.githubusercontent.com/108957679/221945727-87baaae8-c3ff-4cb4-adab-064d464ec39b.png" alt="TailwindCSS" width="70" height="70" />
+                        <img src={asp} width="70" height="70" className='ml-6'/>
                     </div>
                 </div>
                 <div className='text-center mt-5'>

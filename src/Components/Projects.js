@@ -6,6 +6,7 @@ import { Beecareful } from "./Beecareful"
 import { TreeHole } from "./TheTreeHole"
 import { Macros } from "./Macros"
 import { CoffeeShop } from "./LandLCoffeeshop"
+import { HayStore } from "./HayStore"
 
 export function Projects(){
 
@@ -91,8 +92,14 @@ export function Projects(){
                 </div>
             </div>
             <div id="Projects">
+                <div id="HayStore">
+                <h1 className="text-4xl font-extralight text-white text-center lg:border-t pt-16 lg:mt-80 mt-10">
+                        HayStore
+                    </h1>
+                    <HayStore />
+                </div>
                 <div className="" id="TreeHole">
-                    <h1 className="text-4xl font-extralight text-white text-center lg:border-t pt-16 lg:mt-80 mt-10">
+                    <h1 className="text-4xl font-extralight text-white text-center lg:border-t pt-16">
                         The Treehole
                     </h1>
                     <TreeHole />
