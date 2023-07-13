@@ -5,7 +5,7 @@ export function HayWorkshop(){
     return (
         <div className="text-white text-center lg:mx-64 mx-10">
             <h2 className="text-2xl mt-5 font-light">
-               HayWorkShop is a platform for me to store different useful web applications.
+               HayWorkShop is a platform for me to store different useful web applications like Image to PDF Converter, JSON data maker etc
             </h2>
             <img src={ HayWorkshopimg } alt="HayWorkshop" className="mt-10"/>
             <h1 className="mt-4 text-lg">
