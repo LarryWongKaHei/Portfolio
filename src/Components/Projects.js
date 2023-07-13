@@ -2,6 +2,8 @@ import TheTreeHoleBG from "../images/TheTreeHoleBG.png"
 import MacrosBG from "../images/MacrosBG.png"
 import BeecarefulBG from "../images/BeecarefulBG.png"
 import LandLCoffee from "../images/LandLCoffee.png"
+import HayWorkshopimg from "../images/HayWorkshop.png"
+import { HayWorkshop } from "./HayWorkshop"
 import { Beecareful } from "./Beecareful"
 import { TreeHole } from "./TheTreeHole"
 import { Macros } from "./Macros"
@@ -81,6 +83,12 @@ export function Projects(){
                 </div>
             </div>
             <div id="Projects">
+            <div className="" id="HayWorkshop">
+                    <h1 className="text-4xl font-extralight text-white text-center lg:border-t pt-24 lg:mt-80 mt-10">
+                        Hay's Workshop
+                    </h1>
+                    <HayWorkshop />
+                </div>
                 <div className="" id="TreeHole">
                     <h1 className="text-4xl font-extralight text-white text-center lg:border-t pt-24 lg:mt-80 mt-10">
                         The Treehole
