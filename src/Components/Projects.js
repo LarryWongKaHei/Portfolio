@@ -8,10 +8,6 @@ import { TreeHole } from "./TheTreeHole"
 import { Macros } from "./Macros"
 import { CoffeeShop } from "./LandLCoffeeshop"
 import { HayStore } from "./HayStore"
-<<<<<<< HEAD
-
-=======
->>>>>>> e4ed69dfaa24baf6fcb645cd0d9bbe8622029e8c
 
 export function Projects(){
 
@@ -97,7 +93,6 @@ export function Projects(){
                 </div>
             </div>
             <div id="Projects">
-<<<<<<< HEAD
             <div className="" id="HaySotre">
                     <h1 className="text-4xl font-extralight text-white text-center lg:border-t pt-24 lg:mt-80 mt-10">
                         Hay's Workshop
@@ -110,14 +105,6 @@ export function Projects(){
                     </h1>
                     <HayWorkshop />
                 </div>
-=======
-                <div id="HayStore">
-                <h1 className="text-4xl font-extralight text-white text-center lg:border-t pt-16 lg:mt-80 mt-10">
-                        HayStore
-                    </h1>
-                    <HayStore />
-                </div>
->>>>>>> e4ed69dfaa24baf6fcb645cd0d9bbe8622029e8c
                 <div className="" id="TreeHole">
                     <h1 className="text-4xl font-extralight text-white text-center lg:border-t pt-16">
                         The Treehole
