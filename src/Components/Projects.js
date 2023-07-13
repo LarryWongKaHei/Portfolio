@@ -95,7 +95,7 @@ export function Projects(){
             <div id="Projects">
             <div className="" id="HaySotre">
                     <h1 className="text-4xl font-extralight text-white text-center lg:border-t pt-24 lg:mt-80 mt-10">
-                        Hay's Workshop
+                        Hay's Store
                     </h1>
                     <HayStore />
                 </div>
