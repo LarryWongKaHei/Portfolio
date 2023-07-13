@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9ea9124b.css",
-    "main.js": "/portfolio/static/js/main.a4f71cb5.js",
+    "main.css": "/portfolio/static/css/main.202f811d.css",
+    "main.js": "/portfolio/static/js/main.e94662d6.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/HayStore.png": "/portfolio/static/media/HayStore.b7cbad783c7338167ac9.png",
+    "static/media/HayWorkshop.png": "/portfolio/static/media/HayWorkshop.5a1d60f8ea9cef2a7531.png",
+    "static/media/E-Commence.png": "/portfolio/static/media/E-Commence.9680c8efb11632564f98.png",
     "static/media/BeecarefulPhoto.png": "/portfolio/static/media/BeecarefulPhoto.b3570dadc3e41de7ec71.png",
     "static/media/Macros.png": "/portfolio/static/media/Macros.e7d3bac796a4b9a25e7b.png",
     "static/media/PhotoOfMe.png": "/portfolio/static/media/PhotoOfMe.79341c105af6338ba3d2.png",
@@ -15,12 +16,12 @@
     "static/media/TheTreeHoleBG.png": "/portfolio/static/media/TheTreeHoleBG.626da2be91a884afe94f.png",
     "static/media/MacrosBG.png": "/portfolio/static/media/MacrosBG.bcef07b18cd69bb50d04.png",
     "index.html": "/portfolio/index.html",
-    "main.9ea9124b.css.map": "/portfolio/static/css/main.9ea9124b.css.map",
-    "main.a4f71cb5.js.map": "/portfolio/static/js/main.a4f71cb5.js.map",
+    "main.202f811d.css.map": "/portfolio/static/css/main.202f811d.css.map",
+    "main.e94662d6.js.map": "/portfolio/static/js/main.e94662d6.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ea9124b.css",
-    "static/js/main.a4f71cb5.js"
+    "static/css/main.202f811d.css",
+    "static/js/main.e94662d6.js"
   ]
 }
