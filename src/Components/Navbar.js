@@ -67,7 +67,6 @@ export function Navbar (){
             <div className="w-full flex ml-14">
                 <ul className="hidden md:flex gap-8">
                     <li className="hover:text-gray-600 cursor-pointer" onClick={toHome}>Home</li>
-                    <li className="hover:text-gray-600 cursor-pointer">Portfolio</li>
                     <li className="hover:text-gray-600 cursor-pointer" onClick={toAbout}>About</li>
                     <li className="hover:text-gray-600 cursor-pointer" onClick={toProjects}>Projects</li>
                     <li className="hover:text-gray-600 cursor-pointer" onClick={toContact}>Contact</li>
@@ -75,10 +74,9 @@ export function Navbar (){
             </div>
             <div id="menu" className={showMenu? "fixed left-0 top-16 bg-black h-full opacity-90 transition duration-500 ease-in-out" 
             : "transition duration-300 ease-out fixed right-[100%]"}>
-                <ul className="mt-10 flex flex-col gap-20 mx-20 text-center">
+                <ul className="mt-10 flex flex-col gap-24 mx-20 text-center">
                     <li className="hover:text-gray-600 cursor-pointer" onClick={toHome}>Home</li>
                     <li className="hover:text-gray-600 cursor-pointer" onClick={toAbout}>About</li>
-                    <li className="hover:text-gray-600 cursor-pointer">Portfolio</li>
                     <li className="hover:text-gray-600 cursor-pointer" onClick={toProjects}>Projects</li>
                     <li className="hover:text-gray-600 cursor-pointer" onClick={toContact}>Contact</li>
                 </ul>
@@ -94,17 +92,19 @@ export function Navbar (){
                         </div>                    
                     </div>
             </div>
-                <div className="hidden md:flex gap-5 mr-4">
-                    <div>
-                        <BsGithub size={23} onClick={toGithub} className="hover:cursor-pointer"/>
-                    </div>
-                    <div>
-                        <BsInstagram size={23} onClick={toInstagram} className="hover:cursor-pointer"/>
-                    </div>
-                    <div>
-                        <BsLinkedin size={23} onClick={toLinkedin} className="hover:cursor-pointer"/>
-                    </div>
+            {window.location.hash === "#/" || window.location.hash === ""?
+                null:
+            <div className="hidden md:flex gap-5 mr-4">
+                <div>
+                    <BsGithub size={23} onClick={toGithub} className="hover:cursor-pointer"/>
                 </div>
+                <div>
+                    <BsInstagram size={23} onClick={toInstagram} className="hover:cursor-pointer"/>
+                </div>
+                <div>
+                    <BsLinkedin size={23} onClick={toLinkedin} className="hover:cursor-pointer"/>
+                </div>
+            </div>}
         </div>
     )
 }
