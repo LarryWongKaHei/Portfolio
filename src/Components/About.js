@@ -13,7 +13,7 @@ export function About (){
                     <p className='md:ml-14 font-light tracking-wide md:mx-14 lg:mx-24 xl:mx-32'>
                         <span className='text-xl ml-4 font-normal'>Hello World</span>, my name is Wong Ka Hei and I am a junior software developer with a passion for solving complex problems and creating innovative solutions. 
                         <p className='my-3'>
-                            <span className='ml-4'>I</span> am skilled in several programming languages, including Python, Javascript, Java.
+                            <span className='ml-4'>I</span> am skilled in several programming languages, including Python, Javascript, Java, C# and TypeScript.
                         </p>
                         <p className='my-3'>
                             <span className='ml-4'>Also</span> I have experience working on full stack web application with mixture of different programming languages and framework, such as React,Django and Spring.
@@ -38,6 +38,7 @@ export function About (){
                         <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" width="70" height="70" />
                         <img src="https://user-images.githubusercontent.com/108957679/221865391-3c5aad3e-7aef-4459-8c51-48655d28c4ca.png" alt="Java" width="70" height="70" />
                         <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png" alt="C#" width="100" height="100" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" alt="TypeScript" width="60" height="60"/>
                 </div>
                 <div className='text-center mt-5'>
                     frameworks:
