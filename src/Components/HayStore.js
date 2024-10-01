@@ -11,9 +11,9 @@ export function HayStore(){
             <h1 className="mt-4 text-lg">
                 Link to the Github page <a href="https://github.com/larrywongkahei/E-Commerce" className="text-blue-500 hover:text-blue-600">Here</a>
             </h1>
-            <h1>
+            {/* <h1>
                 Link to the page <a href="https://haystore.herokuapp.com/" className="text-blue-500 hover:text-blue-600">Here</a>
-            </h1>
+            </h1> */}
             <h1 className="mt-4 text-lg border-b pb-10 xl:border-b-0">
                 Back to the top <a href="#top" className="text-blue-500 hover:text-blue-600">Here</a>
             </h1>
