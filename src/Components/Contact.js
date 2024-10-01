@@ -12,8 +12,6 @@ export function Contact(){
                     </a>
                 </button>
             </div>
-
-            
         </div> 
     )
 }
